@@ -128,7 +128,7 @@ function renderRound(index) {
       <div class="headline-label">${labels[i]}</div>
       <div class="headline-body">
         <div class="headline-text">${renderMd(headline.text)}</div>
-        ${headline.source ? `<div class="headline-source">${escapeHtml(headline.source)}</div>` : ''}
+        <div class="headline-source" aria-hidden="true">&nbsp;</div>
       </div>
     `;
 
