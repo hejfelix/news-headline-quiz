@@ -1,467 +1,465 @@
 {
-  "_note": "Two headlines per round are real (real: true) with verified URLs. The headline marked real: false is the fake. Supports **bold** and *italic* in headline text. All real stories sourced from odditycentral.com.",
-  "rounds": [
-    {
-      "id": 1,
-      "theme": "Bizarre Driving Stories",
-      "headlines": [
+    "_note": "Two headlines per round are real (real: true) with verified URLs. The headline marked real: false is the fake. Supports **bold** and *italic* in headline text. All real stories sourced from odditycentral.com.",
+    "rounds": [
         {
-          "text": "Finnish businessman **fined $140,000** for exceeding the speed limit *by just 18 miles per hour*",
-          "real": true,
-          "url": "https://www.odditycentral.com/news/motorist-fined-nearly-140000-for-exceeding-speed-limit-by-18-miles.html",
-          "source": "Oddity Central"
+            "id": 1,
+            "theme": "Bizarre Driving Stories",
+            "headlines": [
+                {
+                    "text": "Finnish businessman **fined $140,000** for exceeding the speed limit *by just 18 miles per hour*",
+                    "real": true,
+                    "url": "https://www.odditycentral.com/news/motorist-fined-nearly-140000-for-exceeding-speed-limit-by-18-miles.html",
+                    "source": "Oddity Central"
+                },
+                {
+                    "text": "Polish man *finally* passes his driving theory test **after 9 years** and 139 attempts",
+                    "real": true,
+                    "url": "https://www.odditycentral.com/news/man-passes-theoretical-driving-test-after-9-years-and-139-attempts.html",
+                    "source": "Oddity Central"
+                },
+                {
+                    "text": "German learner driver **automatically awarded his licence** after examiners admitted they had *lost his test results* six times in a row",
+                    "real": false,
+                    "source": ""
+                }
+            ]
         },
         {
-          "text": "Polish man *finally* passes his driving theory test **after 9 years** and 139 attempts",
-          "real": true,
-          "url": "https://www.odditycentral.com/news/man-passes-theoretical-driving-test-after-9-years-and-139-attempts.html",
-          "source": "Oddity Central"
+            "id": 2,
+            "theme": "Romance Gone Wrong",
+            "headlines": [
+                {
+                    "text": "Indian woman files for divorce because her husband is **too nice** and *refuses to argue* with her",
+                    "real": true,
+                    "url": "https://www.odditycentral.com/news/woman-seeks-divorce-because-husband-is-too-nice-never-fights-with-her.html",
+                    "source": "Oddity Central"
+                },
+                {
+                    "text": "**15-year-old** German boy steals a bus and drives it *80 miles* to pick up his girlfriend from school",
+                    "real": true,
+                    "url": "https://www.odditycentral.com/news/15-year-old-teenager-steals-bus-drives-it-80-miles-to-take-girlfriend-to-school.html",
+                    "source": "Oddity Central"
+                },
+                {
+                    "text": "Japanese man **arrested** after sending his ex-girlfriend *3.2 million text messages* in one year — averaging one every 10 seconds",
+                    "real": false,
+                    "source": ""
+                }
+            ]
         },
         {
-          "text": "German learner driver **automatically awarded his licence** after examiners admitted they had *lost his test results* six times in a row",
-          "real": false,
-          "source": ""
+            "id": 3,
+            "theme": "Records & Mad Science",
+            "headlines": [
+                {
+                    "text": "Nigerian woman spends **70 days** counting aloud to *1,070,000*, smashing an 18-year-old Guinness World Record",
+                    "real": true,
+                    "url": "https://www.odditycentral.com/news/woman-spends-70-days-counting-out-loud-to-1070000-breaks-18-year-old-record.html",
+                    "source": "Oddity Central"
+                },
+                {
+                    "text": "Scientists use **CRISPR** gene-editing to create a tomato that *smells exactly like butter-flavoured popcorn*",
+                    "real": true,
+                    "url": "https://www.odditycentral.com/news/scientists-create-genetically-altered-tomato-that-smells-like-butter-flavored-popcorn.html",
+                    "source": "Oddity Central"
+                },
+                {
+                    "text": "**Oxford researchers** develop a *caffeine-free coffee* that stimulates the exact same neural receptors — and tastes identical to espresso",
+                    "real": false,
+                    "source": ""
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "theme": "Law & Disorder",
+            "headlines": [
+                {
+                    "text": "Spanish restaurant chain ***'La Mafia Sits at the Table'*** ordered by courts to **change its name** after Italy filed an official complaint",
+                    "real": true,
+                    "url": "https://www.odditycentral.com/news/restaurant-chain-forced-to-change-its-name-due-to-mafia-reference.html",
+                    "source": "Oddity Central"
+                },
+                {
+                    "text": "Brazilian influencer **allegedly staged her own kidnapping at gunpoint** to *boost her social media following*",
+                    "real": true,
+                    "url": "https://www.odditycentral.com/news/influencer-allegedly-stages-her-own-kidnapping-at-gunpoint-for-attention.html",
+                    "source": "Oddity Central"
+                },
+                {
+                    "text": "**Italian court rules** that eating a sandwich at your desk does *not* count as a lunch break — entitling workers to back-pay compensation",
+                    "real": false,
+                    "source": ""
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "theme": "The Internet Did This",
+            "headlines": [
+                {
+                    "text": "Airbnb rental *\"for a party of seven\"* swells to **800 teenagers**, ransacking a *$5 million* Texas mansion",
+                    "real": true,
+                    "url": "https://www.odditycentral.com/news/5-million-mansion-rented-on-airbnb-for-small-private-event-vandalized-by-800-partying-teens.html",
+                    "source": "Oddity Central"
+                },
+                {
+                    "text": "Chinese film studio sparks outrage after officially casting **AI actors** as *leads in an upcoming drama series*",
+                    "real": true,
+                    "url": "https://www.odditycentral.com/news/chinese-film-studio-sparks-controversy-by-officially-introducing-ai-actors.html",
+                    "source": "Oddity Central"
+                },
+                {
+                    "text": "**TikTok** introduces *'Slow Mode'* — a 30-second delay before posting that the platform says has *reduced teen impulsive uploads by 40%*",
+                    "real": false,
+                    "source": ""
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "theme": "Body Fails Unexpectedly",
+            "headlines": [
+                {
+                    "text": "Chinese woman **breaks four ribs** while coughing after eating *spicy food* — doctors blame her lack of muscle",
+                    "real": true,
+                    "url": "https://www.odditycentral.com/news/skinny-woman-breaks-four-ribs-while-coughing.html",
+                    "source": "Oddity Central"
+                },
+                {
+                    "text": "Taiwanese man suffers **brain haemorrhage** months after riding a *roller coaster* — surgeons blame the G-forces",
+                    "real": true,
+                    "url": "https://www.odditycentral.com/news/middle-aged-man-suffers-brain-haemorrhage-after-riding-roller-coaster.html",
+                    "source": "Oddity Central"
+                },
+                {
+                    "text": "German man's **right arm goes completely numb** for three weeks after *playing air guitar* at a festival, baffling doctors",
+                    "real": false,
+                    "source": ""
+                }
+            ]
+        },
+        {
+            "id": 7,
+            "theme": "Hooked on Screens",
+            "headlines": [
+                {
+                    "text": "Taiwanese university student **dies after gaming nonstop** for *four days and three nights* during the winter holidays",
+                    "real": true,
+                    "url": "https://www.odditycentral.com/news/student-who-played-video-games-for-4-days-and-3-nights-straight-suffers-brain-hemorrhage.html",
+                    "source": "Oddity Central"
+                },
+                {
+                    "text": "Indian woman **files a police complaint** against her husband — for making her do chores and causing her to *lose two Instagram followers*",
+                    "real": true,
+                    "url": "https://www.odditycentral.com/news/woman-files-complaint-against-husband-for-making-her-do-chores-instead-of-spending-time-on-instagram.html",
+                    "source": "Oddity Central"
+                },
+                {
+                    "text": "**Netflix** quietly introduces a *'responsible viewing'* feature that automatically pauses binge-watching after five episodes and plays a motivational quote",
+                    "real": false,
+                    "source": ""
+                }
+            ]
+        },
+        {
+            "id": 8,
+            "theme": "Uninvited Guests",
+            "headlines": [
+                {
+                    "text": "Australian mother of three returns home to find **a stranger had been secretly living in her attic** — *for an unknown length of time*",
+                    "real": true,
+                    "url": "https://www.odditycentral.com/news/mother-of-three-shocked-to-discover-intruder-had-been-living-in-house-attic.html",
+                    "source": "Oddity Central"
+                },
+                {
+                    "text": "Indian woman declared **brain-dead** miraculously *regains consciousness* after the ambulance carrying her hits a large pothole",
+                    "real": true,
+                    "url": "https://www.odditycentral.com/news/pothole-on-road-jolts-brain-dead-woman-back-into-consciousness.html",
+                    "source": "Oddity Central"
+                },
+                {
+                    "text": "Swedish couple returns from two-week holiday to discover *a family of beavers* has **built a dam in their basement**, flooding the ground floor",
+                    "real": false,
+                    "source": ""
+                }
+            ]
+        },
+        {
+            "id": 9,
+            "theme": "You Can't Make This Up",
+            "headlines": [
+                {
+                    "text": "UAE woman goes to court seeking a **divorce** — because her husband *loved her too much* and never once argued with her",
+                    "real": true,
+                    "url": "https://www.odditycentral.com/news/woman-seeks-divorce-from-husband-who-loved-her-too-much-never-argued-with-her.html",
+                    "source": "Oddity Central"
+                },
+                {
+                    "text": "**'Jessica Foster'** — a *wildly popular Instagram soldier and Trump supporter* with over one million followers — turns out to be entirely AI-generated",
+                    "real": true,
+                    "url": "https://www.odditycentral.com/news/meet-jessica-foster-the-wholesome-us-soldier-and-donald-trump-fan-who-doesnt-exist.html",
+                    "source": "Oddity Central"
+                },
+                {
+                    "text": "UK court rules that a **30-second TikTok video** constitutes a *legally binding verbal contract* if it exceeds one million views",
+                    "real": false,
+                    "source": ""
+                }
+            ]
+        },
+        {
+            "id": 10,
+            "theme": "Gone Viral",
+            "headlines": [
+                {
+                    "text": "**Singaporean photographer Chuando Tan** turns 60 and goes *viral again* — still looking decades younger than his age with no surgery",
+                    "real": true,
+                    "url": "https://www.odditycentral.com/news/singapores-vampire-turns-60-still-shocks-the-world-with-his-youthful-looks.html",
+                    "source": "Oddity Central"
+                },
+                {
+                    "text": "Maryland homeowner **allegedly called ICE** on the migrant workers *fixing her roof* — reportedly to avoid paying the $10,000 bill",
+                    "real": true,
+                    "url": "https://www.odditycentral.com/news/woman-allegedly-calls-ice-on-migrant-workers-fixing-her-roof-to-avoid-having-to-pay-them.html",
+                    "source": "Oddity Central"
+                },
+                {
+                    "text": "Canadian man **accidentally livestreams his own surprise birthday party** while trying to *stream a football match*, with 40,000 viewers watching in real time",
+                    "real": false,
+                    "source": ""
+                }
+            ]
+        },
+        {
+            "id": 11,
+            "theme": "AI Gets Weird",
+            "headlines": [
+                {
+                    "text": "A 21-year-old South Korean woman is accused of using **ChatGPT** to research lethal drug doses in order to *poison and kill* several young men she met online",
+                    "real": true,
+                    "url": "https://www.odditycentral.com/news/south-koreas-beautiful-assassin-uses-chatgpt-to-plan-the-killing-of-several-young-men.html",
+                    "source": "Oddity Central"
+                },
+                {
+                    "text": "A Chinese tech company staged a **kung-fu exhibition** with its humanoid robots, leaving audiences stunned — one robot successfully performed an *unassisted backflip*",
+                    "real": true,
+                    "url": "https://www.odditycentral.com/news/real-life-terminators-chinese-made-humanoid-robots-blow-everyone-away-with-kung-fu-exhibition.html",
+                    "source": "Oddity Central"
+                },
+                {
+                    "text": "A U.S. hospital's **AI triage system** began referring patients to *astrology-based treatments* — administrators say error rates are *'within acceptable margins'*",
+                    "real": false,
+                    "source": ""
+                }
+            ]
+        },
+        {
+            "id": 12,
+            "theme": "Small People, Big Problems",
+            "headlines": [
+                {
+                    "text": "A 10-year-old boy in China took his own **father to court** after his dad spent the boy's *entire savings* without permission — and refused to pay him back",
+                    "real": true,
+                    "url": "https://www.odditycentral.com/news/10-year-old-boy-sues-father-for-spending-his-savings-without-his-consent.html",
+                    "source": "Oddity Central"
+                },
+                {
+                    "text": "An Illinois daycare teacher was arrested for **feeding children chewable laxatives** so they would all get sent home sick — she told police she was *overwhelmed*",
+                    "real": true,
+                    "url": "https://www.odditycentral.com/news/overwhelmed-preschool-teacher-gives-kids-laxatives-so-she-could-send-them-home.html",
+                    "source": "Oddity Central"
+                },
+                {
+                    "text": "A 7-year-old in Singapore **incorporated an LLC**, hired his parents as staff, and now *docks their pocket money* if they're late to family dinners",
+                    "real": false,
+                    "source": ""
+                }
+            ]
+        },
+        {
+            "id": 13,
+            "theme": "Animals in Trouble",
+            "headlines": [
+                {
+                    "text": "An Italian man **trained his dog** to carry trash bags in its mouth and drop them in unauthorised locations — to *avoid paying* his municipal waste collection fees",
+                    "real": true,
+                    "url": "https://www.odditycentral.com/news/man-allegedly-trains-dog-to-illegally-dump-trash-bags-on-the-side-of-the-road.html",
+                    "source": "Oddity Central"
+                },
+                {
+                    "text": "**20 camels** were disqualified from Oman's annual *camel beauty contest* after judges discovered the animals had been given Botox injections and cosmetic plastic surgery",
+                    "real": true,
+                    "url": "https://www.odditycentral.com/animals/20-camels-diqualified-from-oman-beauty-contest-for-botox-fillers-and-plastic-surgery.html",
+                    "source": "Oddity Central"
+                },
+                {
+                    "text": "A pet parrot in São Paulo **called the police** while its owner was at work — officers arrived to find the apartment empty but spent 40 minutes taking the parrot's *'statement'*",
+                    "real": false,
+                    "source": ""
+                }
+            ]
+        },
+        {
+            "id": 14,
+            "theme": "Desperate Measures",
+            "headlines": [
+                {
+                    "text": "A Russian man who couldn't find work **deliberately committed a crime** to get arrested, calculating that a prison sentence was a more reliable way to *survive the winter*",
+                    "real": true,
+                    "url": "https://www.odditycentral.com/news/unable-to-find-job-man-decides-to-go-to-prison-to-survive.html",
+                    "source": "Oddity Central"
+                },
+                {
+                    "text": "A Spanish man fired for drinking **up to 3 litres of beer** during work hours was awarded ***$55,000 in compensation*** by a court, which ruled his dismissal was disproportionate",
+                    "real": true,
+                    "url": "https://www.odditycentral.com/news/man-fired-for-drinking-on-the-job-gets-awarded-55000-compensation-in-court.html",
+                    "source": "Oddity Central"
+                },
+                {
+                    "text": "A Hungarian man **resigned via spaghetti letter** — he argued that the contract required *hand-crafted* written notice, and the labour tribunal shockingly agreed",
+                    "real": false,
+                    "source": ""
+                }
+            ]
+        },
+        {
+            "id": 15,
+            "theme": "Up in the Air",
+            "headlines": [
+                {
+                    "text": "Italian stunt pilot **Dario Costa** made aviation history by becoming the *first person ever* to **land a plane on a moving train** — then take off from it again",
+                    "real": true,
+                    "url": "https://www.odditycentral.com/news/italian-pilot-becomes-first-to-land-plane-on-a-moving-train.html",
+                    "source": "Oddity Central"
+                },
+                {
+                    "text": "A team of **Chinese teenage paper plane enthusiasts** broke not one but *two long-standing world records* — for longest distance and longest flight time — in under two months",
+                    "real": true,
+                    "url": "https://www.odditycentral.com/news/teen-paper-plane-enthusiasts-break-2-long-standing-world-records-in-under-two-months.html",
+                    "source": "Oddity Central"
+                },
+                {
+                    "text": "Investigators found that a commercial jet had **flown to the wrong country** for six hours — the autopilot had been loaded with *entirely incorrect coordinates* and no one noticed",
+                    "real": false,
+                    "source": ""
+                }
+            ]
+        },
+        {
+            "id": 16,
+            "theme": "Nature's Weirdest Creatures",
+            "headlines": [
+                {
+                    "text": "The African Hairy Frog — nicknamed the ***'Wolverine Frog'*** — **deliberately breaks its own toe bones** when threatened, forcing the shattered bone through the skin to *form sharp claws*",
+                    "real": true,
+                    "url": "https://www.odditycentral.com/animals/wolverine-frog-breaks-its-own-bones-to-turn-them-into-sharp-claws.html",
+                    "source": "Oddity Central"
+                },
+                {
+                    "text": "Scientists identified a parasitic ant species that **has no workers and no males** — it consists entirely of *queens* that reproduce by cloning themselves",
+                    "real": true,
+                    "url": "https://www.odditycentral.com/news/the-unique-ant-species-that-consists-only-of-queens-that-reproduce-without-males.html",
+                    "source": "Oddity Central"
+                },
+                {
+                    "text": "Norwegian researchers documented the **first vertebrate that photosynthesises** — a fish that generates energy from sunlight via *symbiotic algae living in its scales*",
+                    "real": false,
+                    "source": ""
+                }
+            ]
+        },
+        {
+            "id": 17,
+            "theme": "Bizarre Trends",
+            "headlines": [
+                {
+                    "text": "A viral weight-loss hack has people **lining their mouths with cling film** before eating — the goal is to chew and *taste* food without actually *swallowing* any of it",
+                    "real": true,
+                    "url": "https://www.odditycentral.com/news/bizarre-weight-loss-trend-has-people-using-cling-film-as-mouth-condoms-for-food.html",
+                    "source": "Oddity Central"
+                },
+                {
+                    "text": "A Chinese arcade was accused of **animal cruelty** after it began using *live hamsters* as prizes in its claw machine — customers could win them like stuffed toys",
+                    "real": true,
+                    "url": "https://www.odditycentral.com/animals/arcade-draws-criticism-for-using-live-hamsters-as-prizes-in-claw-machine-game.html",
+                    "source": "Oddity Central"
+                },
+                {
+                    "text": "A Turkish spa sparked controversy by offering a ***'volcanic rock facial'*** where **crushed lava** is applied to the face at 60°C — waitlists now stretch to *nine months*",
+                    "real": false,
+                    "source": ""
+                }
+            ]
+        },
+        {
+            "id": 18,
+            "theme": "Neighbour Wars",
+            "headlines": [
+                {
+                    "text": "A Taiwanese woman was **sentenced to three months in prison** after using a *megaphone* to scream insults at her neighbours late at night — for *almost two years* straight",
+                    "real": true,
+                    "url": "https://www.odditycentral.com/news/woman-receives-prison-time-for-using-megaphone-to-insult-neighbors-at-night-for-almost-two-years.html",
+                    "source": "Oddity Central"
+                },
+                {
+                    "text": "A French woman was **fined €1,250** after her neighbour complained that her *pet cat* kept trespassing onto his property — repeatedly and without invitation",
+                    "real": true,
+                    "url": "https://www.odditycentral.com/animals/woman-fined-1400-because-her-cat-keeps-visiting-her-neighbor.html",
+                    "source": "Oddity Central"
+                },
+                {
+                    "text": "A Swedish judge ordered a man to pay **€200 per month** as *'auditory compensation'* to his nextdoor neighbour after years of **practising trombone** between 6am and 7am on weekdays",
+                    "real": false,
+                    "source": ""
+                }
+            ]
+        },
+        {
+            "id": 19,
+            "theme": "Strange Economics",
+            "headlines": [
+                {
+                    "text": "Due to **surging demand** from mainland China and Hong Kong, *cow gallstones* have quietly become one of the world's most valuable commodities — now **worth more than gold** per gram",
+                    "real": true,
+                    "url": "https://www.odditycentral.com/animals/cow-gallstones-are-now-more-valuable-than-gold.html",
+                    "source": "Oddity Central"
+                },
+                {
+                    "text": "A Maltese chocolatier spent **four months building** the *world's longest chocolate sculpture*: a **55.27-metre steam train** made entirely of chocolate",
+                    "real": true,
+                    "url": "https://www.odditycentral.com/news/this-55-meter-steam-train-is-the-worlds-longest-chocolate-sculpture.html",
+                    "source": "Oddity Central"
+                },
+                {
+                    "text": "An economist published a viral report showing that **storing apples in a cold garage** has *consistently outperformed the stock market* as an investment strategy over the past decade",
+                    "real": false,
+                    "source": ""
+                }
+            ]
+        },
+        {
+            "id": 20,
+            "theme": "Science Won't Stop",
+            "headlines": [
+                {
+                    "text": "A Russian tech startup has inserted **neuro-implants into the brains of cows** to monitor stress levels and boost milk yield — making them *the first animals* to receive such devices",
+                    "real": true,
+                    "url": "https://www.odditycentral.com/animals/russian-startup-tests-cow-neuro-implants-to-boost-milk-production.html",
+                    "source": "Oddity Central"
+                },
+                {
+                    "text": "A Brazilian man savagely attacked by two large dogs says he is **only alive today because his phone exploded** in his pocket — the *blast* was enough to frighten the dogs away",
+                    "real": true,
+                    "url": "https://www.odditycentral.com/news/man-attacked-by-dogs-unexpectedly-saved-by-exploding-phone-in-his-pocket.html",
+                    "source": "Oddity Central"
+                },
+                {
+                    "text": "MIT researchers published a study showing that people who **charge their phones overnight** accumulate *3.7 fewer years of sleep* over their lifetime than those who charge during the day",
+                    "real": false,
+                    "source": ""
+                }
+            ]
         }
-      ]
-    },
-    {
-      "id": 2,
-      "theme": "Romance Gone Wrong",
-      "headlines": [
-        {
-          "text": "Indian woman files for divorce because her husband is **too nice** and *refuses to argue* with her",
-          "real": true,
-          "url": "https://www.odditycentral.com/news/woman-seeks-divorce-because-husband-is-too-nice-never-fights-with-her.html",
-          "source": "Oddity Central"
-        },
-        {
-          "text": "**15-year-old** German boy steals a bus and drives it *80 miles* to pick up his girlfriend from school",
-          "real": true,
-          "url": "https://www.odditycentral.com/news/15-year-old-teenager-steals-bus-drives-it-80-miles-to-take-girlfriend-to-school.html",
-          "source": "Oddity Central"
-        },
-        {
-          "text": "Japanese man **arrested** after sending his ex-girlfriend *3.2 million text messages* in one year — averaging one every 10 seconds",
-          "real": false,
-          "source": ""
-        }
-      ]
-    },
-    {
-      "id": 3,
-      "theme": "Records & Mad Science",
-      "headlines": [
-        {
-          "text": "Nigerian woman spends **70 days** counting aloud to *1,070,000*, smashing an 18-year-old Guinness World Record",
-          "real": true,
-          "url": "https://www.odditycentral.com/news/woman-spends-70-days-counting-out-loud-to-1070000-breaks-18-year-old-record.html",
-          "source": "Oddity Central"
-        },
-        {
-          "text": "Scientists use **CRISPR** gene-editing to create a tomato that *smells exactly like butter-flavoured popcorn*",
-          "real": true,
-          "url": "https://www.odditycentral.com/news/scientists-create-genetically-altered-tomato-that-smells-like-butter-flavored-popcorn.html",
-          "source": "Oddity Central"
-        },
-        {
-          "text": "**Oxford researchers** develop a *caffeine-free coffee* that stimulates the exact same neural receptors — and tastes identical to espresso",
-          "real": false,
-          "source": ""
-        }
-      ]
-    },
-    {
-      "id": 4,
-      "theme": "Law & Disorder",
-      "headlines": [
-        {
-          "text": "Spanish restaurant chain ***'La Mafia Sits at the Table'*** ordered by courts to **change its name** after Italy filed an official complaint",
-          "real": true,
-          "url": "https://www.odditycentral.com/news/restaurant-chain-forced-to-change-its-name-due-to-mafia-reference.html",
-          "source": "Oddity Central"
-        },
-        {
-          "text": "Brazilian influencer **allegedly staged her own kidnapping at gunpoint** to *boost her social media following*",
-          "real": true,
-          "url": "https://www.odditycentral.com/news/influencer-allegedly-stages-her-own-kidnapping-at-gunpoint-for-attention.html",
-          "source": "Oddity Central"
-        },
-        {
-          "text": "**Italian court rules** that eating a sandwich at your desk does *not* count as a lunch break — entitling workers to back-pay compensation",
-          "real": false,
-          "source": ""
-        }
-      ]
-    },
-    {
-      "id": 5,
-      "theme": "The Internet Did This",
-      "headlines": [
-        {
-          "text": "Airbnb rental *\"for a party of seven\"* swells to **800 teenagers**, ransacking a *$5 million* Texas mansion",
-          "real": true,
-          "url": "https://www.odditycentral.com/news/5-million-mansion-rented-on-airbnb-for-small-private-event-vandalized-by-800-partying-teens.html",
-          "source": "Oddity Central"
-        },
-        {
-          "text": "Chinese film studio sparks outrage after officially casting **AI actors** as *leads in an upcoming drama series*",
-          "real": true,
-          "url": "https://www.odditycentral.com/news/chinese-film-studio-sparks-controversy-by-officially-introducing-ai-actors.html",
-          "source": "Oddity Central"
-        },
-        {
-          "text": "**TikTok** introduces *'Slow Mode'* — a 30-second delay before posting that the platform says has *reduced teen impulsive uploads by 40%*",
-          "real": false,
-          "source": ""
-        }
-      ]
-    }
-  ,
-    {
-      "id": 6,
-      "theme": "Body Fails Unexpectedly",
-      "headlines": [
-        {
-          "text": "Chinese woman **breaks four ribs** while coughing after eating *spicy food* — doctors blame her lack of muscle",
-          "real": true,
-          "url": "https://www.odditycentral.com/news/skinny-woman-breaks-four-ribs-while-coughing.html",
-          "source": "Oddity Central"
-        },
-        {
-          "text": "Taiwanese man suffers **brain haemorrhage** months after riding a *roller coaster* — surgeons blame the G-forces",
-          "real": true,
-          "url": "https://www.odditycentral.com/news/middle-aged-man-suffers-brain-haemorrhage-after-riding-roller-coaster.html",
-          "source": "Oddity Central"
-        },
-        {
-          "text": "German man's **right arm goes completely numb** for three weeks after *playing air guitar* at a festival, baffling doctors",
-          "real": false,
-          "source": ""
-        }
-      ]
-    },
-    {
-      "id": 7,
-      "theme": "Hooked on Screens",
-      "headlines": [
-        {
-          "text": "Taiwanese university student **dies after gaming nonstop** for *four days and three nights* during the winter holidays",
-          "real": true,
-          "url": "https://www.odditycentral.com/news/student-who-played-video-games-for-4-days-and-3-nights-straight-suffers-brain-hemorrhage.html",
-          "source": "Oddity Central"
-        },
-        {
-          "text": "Indian woman **files a police complaint** against her husband — for making her do chores and causing her to *lose two Instagram followers*",
-          "real": true,
-          "url": "https://www.odditycentral.com/news/woman-files-complaint-against-husband-for-making-her-do-chores-instead-of-spending-time-on-instagram.html",
-          "source": "Oddity Central"
-        },
-        {
-          "text": "**Netflix** quietly introduces a *'responsible viewing'* feature that automatically pauses binge-watching after five episodes and plays a motivational quote",
-          "real": false,
-          "source": ""
-        }
-      ]
-    },
-    {
-      "id": 8,
-      "theme": "Uninvited Guests",
-      "headlines": [
-        {
-          "text": "Australian mother of three returns home to find **a stranger had been secretly living in her attic** — *for an unknown length of time*",
-          "real": true,
-          "url": "https://www.odditycentral.com/news/mother-of-three-shocked-to-discover-intruder-had-been-living-in-house-attic.html",
-          "source": "Oddity Central"
-        },
-        {
-          "text": "Indian woman declared **brain-dead** miraculously *regains consciousness* after the ambulance carrying her hits a large pothole",
-          "real": true,
-          "url": "https://www.odditycentral.com/news/pothole-on-road-jolts-brain-dead-woman-back-into-consciousness.html",
-          "source": "Oddity Central"
-        },
-        {
-          "text": "Swedish couple returns from two-week holiday to discover *a family of beavers* has **built a dam in their basement**, flooding the ground floor",
-          "real": false,
-          "source": ""
-        }
-      ]
-    },
-    {
-      "id": 9,
-      "theme": "You Can't Make This Up",
-      "headlines": [
-        {
-          "text": "UAE woman goes to court seeking a **divorce** — because her husband *loved her too much* and never once argued with her",
-          "real": true,
-          "url": "https://www.odditycentral.com/news/woman-seeks-divorce-from-husband-who-loved-her-too-much-never-argued-with-her.html",
-          "source": "Oddity Central"
-        },
-        {
-          "text": "**'Jessica Foster'** — a *wildly popular Instagram soldier and Trump supporter* with over one million followers — turns out to be entirely AI-generated",
-          "real": true,
-          "url": "https://www.odditycentral.com/news/meet-jessica-foster-the-wholesome-us-soldier-and-donald-trump-fan-who-doesnt-exist.html",
-          "source": "Oddity Central"
-        },
-        {
-          "text": "UK court rules that a **30-second TikTok video** constitutes a *legally binding verbal contract* if it exceeds one million views",
-          "real": false,
-          "source": ""
-        }
-      ]
-    },
-    {
-      "id": 10,
-      "theme": "Gone Viral",
-      "headlines": [
-        {
-          "text": "**Singaporean photographer Chuando Tan** turns 60 and goes *viral again* — still looking decades younger than his age with no surgery",
-          "real": true,
-          "url": "https://www.odditycentral.com/news/singapores-vampire-turns-60-still-shocks-the-world-with-his-youthful-looks.html",
-          "source": "Oddity Central"
-        },
-        {
-          "text": "Maryland homeowner **allegedly called ICE** on the migrant workers *fixing her roof* — reportedly to avoid paying the $10,000 bill",
-          "real": true,
-          "url": "https://www.odditycentral.com/news/woman-allegedly-calls-ice-on-migrant-workers-fixing-her-roof-to-avoid-having-to-pay-them.html",
-          "source": "Oddity Central"
-        },
-        {
-          "text": "Canadian man **accidentally livestreams his own surprise birthday party** while trying to *stream a football match*, with 40,000 viewers watching in real time",
-          "real": false,
-          "source": ""
-        }
-      ]
-    },
-    {
-      "id": 11,
-      "theme": "AI Gets Weird",
-      "headlines": [
-        {
-          "text": "A 21-year-old South Korean woman is accused of using **ChatGPT** to research lethal drug doses in order to *poison and kill* several young men she met online",
-          "real": true,
-          "url": "https://www.odditycentral.com/news/south-koreas-beautiful-assassin-uses-chatgpt-to-plan-the-killing-of-several-young-men.html",
-          "source": "Oddity Central"
-        },
-        {
-          "text": "A Chinese tech company staged a **kung-fu exhibition** with its humanoid robots, leaving audiences stunned — one robot successfully performed an *unassisted backflip*",
-          "real": true,
-          "url": "https://www.odditycentral.com/news/real-life-terminators-chinese-made-humanoid-robots-blow-everyone-away-with-kung-fu-exhibition.html",
-          "source": "Oddity Central"
-        },
-        {
-          "text": "A U.S. hospital's **AI triage system** began referring patients to *astrology-based treatments* — administrators say error rates are *'within acceptable margins'*",
-          "real": false,
-          "source": ""
-        }
-      ]
-    },
-    {
-      "id": 12,
-      "theme": "Small People, Big Problems",
-      "headlines": [
-        {
-          "text": "A 10-year-old boy in China took his own **father to court** after his dad spent the boy's *entire savings* without permission — and refused to pay him back",
-          "real": true,
-          "url": "https://www.odditycentral.com/news/10-year-old-boy-sues-father-for-spending-his-savings-without-his-consent.html",
-          "source": "Oddity Central"
-        },
-        {
-          "text": "An Illinois daycare teacher was arrested for **feeding children chewable laxatives** so they would all get sent home sick — she told police she was *overwhelmed*",
-          "real": true,
-          "url": "https://www.odditycentral.com/news/overwhelmed-preschool-teacher-gives-kids-laxatives-so-she-could-send-them-home.html",
-          "source": "Oddity Central"
-        },
-        {
-          "text": "A 7-year-old in Singapore **incorporated an LLC**, hired his parents as staff, and now *docks their pocket money* if they're late to family dinners",
-          "real": false,
-          "source": ""
-        }
-      ]
-    },
-    {
-      "id": 13,
-      "theme": "Animals in Trouble",
-      "headlines": [
-        {
-          "text": "An Italian man **trained his dog** to carry trash bags in its mouth and drop them in unauthorised locations — to *avoid paying* his municipal waste collection fees",
-          "real": true,
-          "url": "https://www.odditycentral.com/news/man-allegedly-trains-dog-to-illegally-dump-trash-bags-on-the-side-of-the-road.html",
-          "source": "Oddity Central"
-        },
-        {
-          "text": "**20 camels** were disqualified from Oman's annual *camel beauty contest* after judges discovered the animals had been given Botox injections and cosmetic plastic surgery",
-          "real": true,
-          "url": "https://www.odditycentral.com/animals/20-camels-diqualified-from-oman-beauty-contest-for-botox-fillers-and-plastic-surgery.html",
-          "source": "Oddity Central"
-        },
-        {
-          "text": "A pet parrot in São Paulo **called the police** while its owner was at work — officers arrived to find the apartment empty but spent 40 minutes taking the parrot's *'statement'*",
-          "real": false,
-          "source": ""
-        }
-      ]
-    },
-    {
-      "id": 14,
-      "theme": "Desperate Measures",
-      "headlines": [
-        {
-          "text": "A Russian man who couldn't find work **deliberately committed a crime** to get arrested, calculating that a prison sentence was a more reliable way to *survive the winter*",
-          "real": true,
-          "url": "https://www.odditycentral.com/news/unable-to-find-job-man-decides-to-go-to-prison-to-survive.html",
-          "source": "Oddity Central"
-        },
-        {
-          "text": "A Spanish man fired for drinking **up to 3 litres of beer** during work hours was awarded ***$55,000 in compensation*** by a court, which ruled his dismissal was disproportionate",
-          "real": true,
-          "url": "https://www.odditycentral.com/news/man-fired-for-drinking-on-the-job-gets-awarded-55000-compensation-in-court.html",
-          "source": "Oddity Central"
-        },
-        {
-          "text": "A Hungarian man **resigned via spaghetti letter** — he argued that the contract required *hand-crafted* written notice, and the labour tribunal shockingly agreed",
-          "real": false,
-          "source": ""
-        }
-      ]
-    },
-    {
-      "id": 15,
-      "theme": "Up in the Air",
-      "headlines": [
-        {
-          "text": "Italian stunt pilot **Dario Costa** made aviation history by becoming the *first person ever* to **land a plane on a moving train** — then take off from it again",
-          "real": true,
-          "url": "https://www.odditycentral.com/news/italian-pilot-becomes-first-to-land-plane-on-a-moving-train.html",
-          "source": "Oddity Central"
-        },
-        {
-          "text": "A team of **Chinese teenage paper plane enthusiasts** broke not one but *two long-standing world records* — for longest distance and longest flight time — in under two months",
-          "real": true,
-          "url": "https://www.odditycentral.com/news/teen-paper-plane-enthusiasts-break-2-long-standing-world-records-in-under-two-months.html",
-          "source": "Oddity Central"
-        },
-        {
-          "text": "Investigators found that a commercial jet had **flown to the wrong country** for six hours — the autopilot had been loaded with *entirely incorrect coordinates* and no one noticed",
-          "real": false,
-          "source": ""
-        }
-      ]
-    },
-    {
-      "id": 16,
-      "theme": "Nature's Weirdest Creatures",
-      "headlines": [
-        {
-          "text": "The African Hairy Frog — nicknamed the ***'Wolverine Frog'*** — **deliberately breaks its own toe bones** when threatened, forcing the shattered bone through the skin to *form sharp claws*",
-          "real": true,
-          "url": "https://www.odditycentral.com/animals/wolverine-frog-breaks-its-own-bones-to-turn-them-into-sharp-claws.html",
-          "source": "Oddity Central"
-        },
-        {
-          "text": "Scientists identified a parasitic ant species that **has no workers and no males** — it consists entirely of *queens* that reproduce by cloning themselves",
-          "real": true,
-          "url": "https://www.odditycentral.com/news/the-unique-ant-species-that-consists-only-of-queens-that-reproduce-without-males.html",
-          "source": "Oddity Central"
-        },
-        {
-          "text": "Norwegian researchers documented the **first vertebrate that photosynthesises** — a fish that generates energy from sunlight via *symbiotic algae living in its scales*",
-          "real": false,
-          "source": ""
-        }
-      ]
-    },
-    {
-      "id": 17,
-      "theme": "Bizarre Trends",
-      "headlines": [
-        {
-          "text": "A viral weight-loss hack has people **lining their mouths with cling film** before eating — the goal is to chew and *taste* food without actually *swallowing* any of it",
-          "real": true,
-          "url": "https://www.odditycentral.com/news/bizarre-weight-loss-trend-has-people-using-cling-film-as-mouth-condoms-for-food.html",
-          "source": "Oddity Central"
-        },
-        {
-          "text": "A Chinese arcade was accused of **animal cruelty** after it began using *live hamsters* as prizes in its claw machine — customers could win them like stuffed toys",
-          "real": true,
-          "url": "https://www.odditycentral.com/animals/arcade-draws-criticism-for-using-live-hamsters-as-prizes-in-claw-machine-game.html",
-          "source": "Oddity Central"
-        },
-        {
-          "text": "A Turkish spa sparked controversy by offering a ***'volcanic rock facial'*** where **crushed lava** is applied to the face at 60°C — waitlists now stretch to *nine months*",
-          "real": false,
-          "source": ""
-        }
-      ]
-    },
-    {
-      "id": 18,
-      "theme": "Neighbour Wars",
-      "headlines": [
-        {
-          "text": "A Taiwanese woman was **sentenced to three months in prison** after using a *megaphone* to scream insults at her neighbours late at night — for *almost two years* straight",
-          "real": true,
-          "url": "https://www.odditycentral.com/news/woman-receives-prison-time-for-using-megaphone-to-insult-neighbors-at-night-for-almost-two-years.html",
-          "source": "Oddity Central"
-        },
-        {
-          "text": "A French woman was **fined €1,250** after her neighbour complained that her *pet cat* kept trespassing onto his property — repeatedly and without invitation",
-          "real": true,
-          "url": "https://www.odditycentral.com/animals/woman-fined-1400-because-her-cat-keeps-visiting-her-neighbor.html",
-          "source": "Oddity Central"
-        },
-        {
-          "text": "A Swedish judge ordered a man to pay **€200 per month** as *'auditory compensation'* to his nextdoor neighbour after years of **practising trombone** between 6am and 7am on weekdays",
-          "real": false,
-          "source": ""
-        }
-      ]
-    },
-    {
-      "id": 19,
-      "theme": "Strange Economics",
-      "headlines": [
-        {
-          "text": "Due to **surging demand** from mainland China and Hong Kong, *cow gallstones* have quietly become one of the world's most valuable commodities — now **worth more than gold** per gram",
-          "real": true,
-          "url": "https://www.odditycentral.com/animals/cow-gallstones-are-now-more-valuable-than-gold.html",
-          "source": "Oddity Central"
-        },
-        {
-          "text": "A Maltese chocolatier spent **four months building** the *world's longest chocolate sculpture*: a **55.27-metre steam train** made entirely of chocolate",
-          "real": true,
-          "url": "https://www.odditycentral.com/news/this-55-meter-steam-train-is-the-worlds-longest-chocolate-sculpture.html",
-          "source": "Oddity Central"
-        },
-        {
-          "text": "An economist published a viral report showing that **storing apples in a cold garage** has *consistently outperformed the stock market* as an investment strategy over the past decade",
-          "real": false,
-          "source": ""
-        }
-      ]
-    },
-    {
-      "id": 20,
-      "theme": "Science Won't Stop",
-      "headlines": [
-        {
-          "text": "A Russian tech startup has inserted **neuro-implants into the brains of cows** to monitor stress levels and boost milk yield — making them *the first animals* to receive such devices",
-          "real": true,
-          "url": "https://www.odditycentral.com/animals/russian-startup-tests-cow-neuro-implants-to-boost-milk-production.html",
-          "source": "Oddity Central"
-        },
-        {
-          "text": "A Brazilian man savagely attacked by two large dogs says he is **only alive today because his phone exploded** in his pocket — the *blast* was enough to frighten the dogs away",
-          "real": true,
-          "url": "https://www.odditycentral.com/news/man-attacked-by-dogs-unexpectedly-saved-by-exploding-phone-in-his-pocket.html",
-          "source": "Oddity Central"
-        },
-        {
-          "text": "MIT researchers published a study showing that people who **charge their phones overnight** accumulate *3.7 fewer years of sleep* over their lifetime than those who charge during the day",
-          "real": false,
-          "source": ""
-        }
-      ]
-    }
-  ]
+    ]
 }
-
