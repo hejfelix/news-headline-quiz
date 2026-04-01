@@ -1,0 +1,237 @@
+{
+  "_note": "Two headlines per round are real (real: true) with verified URLs. The headline marked real: false is the fake. Supports **bold** and *italic* in headline text. All real stories sourced from odditycentral.com.",
+  "rounds": [
+    {
+      "id": 1,
+      "theme": "Bizarre Driving Stories",
+      "headlines": [
+        {
+          "text": "Finnish businessman **fined $140,000** for exceeding the speed limit *by just 18 miles per hour*",
+          "real": true,
+          "url": "https://www.odditycentral.com/news/motorist-fined-nearly-140000-for-exceeding-speed-limit-by-18-miles.html",
+          "source": "Oddity Central"
+        },
+        {
+          "text": "Polish man *finally* passes his driving theory test **after 9 years** and 139 attempts",
+          "real": true,
+          "url": "https://www.odditycentral.com/news/man-passes-theoretical-driving-test-after-9-years-and-139-attempts.html",
+          "source": "Oddity Central"
+        },
+        {
+          "text": "German learner driver **automatically awarded his licence** after examiners admitted they had *lost his test results* six times in a row",
+          "real": false,
+          "source": ""
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "theme": "Romance Gone Wrong",
+      "headlines": [
+        {
+          "text": "Indian woman files for divorce because her husband is **too nice** and *refuses to argue* with her",
+          "real": true,
+          "url": "https://www.odditycentral.com/news/woman-seeks-divorce-because-husband-is-too-nice-never-fights-with-her.html",
+          "source": "Oddity Central"
+        },
+        {
+          "text": "**15-year-old** German boy steals a bus and drives it *80 miles* to pick up his girlfriend from school",
+          "real": true,
+          "url": "https://www.odditycentral.com/news/15-year-old-teenager-steals-bus-drives-it-80-miles-to-take-girlfriend-to-school.html",
+          "source": "Oddity Central"
+        },
+        {
+          "text": "Japanese man **arrested** after sending his ex-girlfriend *3.2 million text messages* in one year — averaging one every 10 seconds",
+          "real": false,
+          "source": ""
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "theme": "Records & Mad Science",
+      "headlines": [
+        {
+          "text": "Nigerian woman spends **70 days** counting aloud to *1,070,000*, smashing an 18-year-old Guinness World Record",
+          "real": true,
+          "url": "https://www.odditycentral.com/news/woman-spends-70-days-counting-out-loud-to-1070000-breaks-18-year-old-record.html",
+          "source": "Oddity Central"
+        },
+        {
+          "text": "Scientists use **CRISPR** gene-editing to create a tomato that *smells exactly like butter-flavoured popcorn*",
+          "real": true,
+          "url": "https://www.odditycentral.com/news/scientists-create-genetically-altered-tomato-that-smells-like-butter-flavored-popcorn.html",
+          "source": "Oddity Central"
+        },
+        {
+          "text": "**Oxford researchers** develop a *caffeine-free coffee* that stimulates the exact same neural receptors — and tastes identical to espresso",
+          "real": false,
+          "source": ""
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "theme": "Law & Disorder",
+      "headlines": [
+        {
+          "text": "Spanish restaurant chain ***'La Mafia Sits at the Table'*** ordered by courts to **change its name** after Italy filed an official complaint",
+          "real": true,
+          "url": "https://www.odditycentral.com/news/restaurant-chain-forced-to-change-its-name-due-to-mafia-reference.html",
+          "source": "Oddity Central"
+        },
+        {
+          "text": "Brazilian influencer **allegedly staged her own kidnapping at gunpoint** to *boost her social media following*",
+          "real": true,
+          "url": "https://www.odditycentral.com/news/influencer-allegedly-stages-her-own-kidnapping-at-gunpoint-for-attention.html",
+          "source": "Oddity Central"
+        },
+        {
+          "text": "**Italian court rules** that eating a sandwich at your desk does *not* count as a lunch break — entitling workers to back-pay compensation",
+          "real": false,
+          "source": ""
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "theme": "The Internet Did This",
+      "headlines": [
+        {
+          "text": "Airbnb rental *\"for a party of seven\"* swells to **800 teenagers**, ransacking a *$5 million* Texas mansion",
+          "real": true,
+          "url": "https://www.odditycentral.com/news/5-million-mansion-rented-on-airbnb-for-small-private-event-vandalized-by-800-partying-teens.html",
+          "source": "Oddity Central"
+        },
+        {
+          "text": "Chinese film studio sparks outrage after officially casting **AI actors** as *leads in an upcoming drama series*",
+          "real": true,
+          "url": "https://www.odditycentral.com/news/chinese-film-studio-sparks-controversy-by-officially-introducing-ai-actors.html",
+          "source": "Oddity Central"
+        },
+        {
+          "text": "**TikTok** introduces *'Slow Mode'* — a 30-second delay before posting that the platform says has *reduced teen impulsive uploads by 40%*",
+          "real": false,
+          "source": ""
+        }
+      ]
+    }
+  ,
+    {
+      "id": 6,
+      "theme": "Body Fails Unexpectedly",
+      "headlines": [
+        {
+          "text": "Chinese woman **breaks four ribs** while coughing after eating *spicy food* — doctors blame her lack of muscle",
+          "real": true,
+          "url": "https://www.odditycentral.com/news/skinny-woman-breaks-four-ribs-while-coughing.html",
+          "source": "Oddity Central"
+        },
+        {
+          "text": "Taiwanese man suffers **brain haemorrhage** months after riding a *roller coaster* — surgeons blame the G-forces",
+          "real": true,
+          "url": "https://www.odditycentral.com/news/middle-aged-man-suffers-brain-haemorrhage-after-riding-roller-coaster.html",
+          "source": "Oddity Central"
+        },
+        {
+          "text": "German man's **right arm goes completely numb** for three weeks after *playing air guitar* at a festival, baffling doctors",
+          "real": false,
+          "source": ""
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "theme": "Hooked on Screens",
+      "headlines": [
+        {
+          "text": "Taiwanese university student **dies after gaming nonstop** for *four days and three nights* during the winter holidays",
+          "real": true,
+          "url": "https://www.odditycentral.com/news/student-who-played-video-games-for-4-days-and-3-nights-straight-suffers-brain-hemorrhage.html",
+          "source": "Oddity Central"
+        },
+        {
+          "text": "Indian woman **files a police complaint** against her husband — for making her do chores and causing her to *lose two Instagram followers*",
+          "real": true,
+          "url": "https://www.odditycentral.com/news/woman-files-complaint-against-husband-for-making-her-do-chores-instead-of-spending-time-on-instagram.html",
+          "source": "Oddity Central"
+        },
+        {
+          "text": "**Netflix** quietly introduces a *'responsible viewing'* feature that automatically pauses binge-watching after five episodes and plays a motivational quote",
+          "real": false,
+          "source": ""
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "theme": "Uninvited Guests",
+      "headlines": [
+        {
+          "text": "Australian mother of three returns home to find **a stranger had been secretly living in her attic** — *for an unknown length of time*",
+          "real": true,
+          "url": "https://www.odditycentral.com/news/mother-of-three-shocked-to-discover-intruder-had-been-living-in-house-attic.html",
+          "source": "Oddity Central"
+        },
+        {
+          "text": "Indian woman declared **brain-dead** miraculously *regains consciousness* after the ambulance carrying her hits a large pothole",
+          "real": true,
+          "url": "https://www.odditycentral.com/news/pothole-on-road-jolts-brain-dead-woman-back-into-consciousness.html",
+          "source": "Oddity Central"
+        },
+        {
+          "text": "Swedish couple returns from two-week holiday to discover *a family of beavers* has **built a dam in their basement**, flooding the ground floor",
+          "real": false,
+          "source": ""
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "theme": "You Can't Make This Up",
+      "headlines": [
+        {
+          "text": "UAE woman goes to court seeking a **divorce** — because her husband *loved her too much* and never once argued with her",
+          "real": true,
+          "url": "https://www.odditycentral.com/news/woman-seeks-divorce-from-husband-who-loved-her-too-much-never-argued-with-her.html",
+          "source": "Oddity Central"
+        },
+        {
+          "text": "**'Jessica Foster'** — a *wildly popular Instagram soldier and Trump supporter* with over one million followers — turns out to be entirely AI-generated",
+          "real": true,
+          "url": "https://www.odditycentral.com/news/meet-jessica-foster-the-wholesome-us-soldier-and-donald-trump-fan-who-doesnt-exist.html",
+          "source": "Oddity Central"
+        },
+        {
+          "text": "UK court rules that a **30-second TikTok video** constitutes a *legally binding verbal contract* if it exceeds one million views",
+          "real": false,
+          "source": ""
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "theme": "Gone Viral",
+      "headlines": [
+        {
+          "text": "**Singaporean photographer Chuando Tan** turns 60 and goes *viral again* — still looking decades younger than his age with no surgery",
+          "real": true,
+          "url": "https://www.odditycentral.com/news/singapores-vampire-turns-60-still-shocks-the-world-with-his-youthful-looks.html",
+          "source": "Oddity Central"
+        },
+        {
+          "text": "Maryland homeowner **allegedly called ICE** on the migrant workers *fixing her roof* — reportedly to avoid paying the $10,000 bill",
+          "real": true,
+          "url": "https://www.odditycentral.com/news/woman-allegedly-calls-ice-on-migrant-workers-fixing-her-roof-to-avoid-having-to-pay-them.html",
+          "source": "Oddity Central"
+        },
+        {
+          "text": "Canadian man **accidentally livestreams his own surprise birthday party** while trying to *stream a football match*, with 40,000 viewers watching in real time",
+          "real": false,
+          "source": ""
+        }
+      ]
+    }
+  ]
+}
+
