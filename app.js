@@ -4,6 +4,83 @@ let rounds = [];
 let currentRoundIndex = 0;
 let confettiInterval = null;
 
+// ---- Sound Engine (Web Audio API, no external files) ----
+let _audioCtx = null;
+
+function getAudioCtx() {
+    if (!_audioCtx) {
+        const AC = window.AudioContext || window.webkitAudioContext;
+        if (!AC) return null;
+        _audioCtx = new AC();
+    }
+    if (_audioCtx.state === 'suspended') _audioCtx.resume();
+    return _audioCtx;
+}
+
+function _osc(ctx, type, freq, startT, endT, peakGain) {
+    const osc = ctx.createOscillator();
+    const gain = ctx.createGain();
+    osc.type = type;
+    osc.frequency.value = freq;
+    osc.connect(gain);
+    gain.connect(ctx.destination);
+    gain.gain.setValueAtTime(0, startT);
+    gain.gain.linearRampToValueAtTime(peakGain, startT + 0.02);
+    gain.gain.exponentialRampToValueAtTime(0.0001, endT);
+    osc.start(startT);
+    osc.stop(endT + 0.01);
+}
+
+function playCardClick() {
+    const ctx = getAudioCtx();
+    if (!ctx) return;
+    const buf = ctx.createBuffer(1, Math.floor(ctx.sampleRate * 0.04), ctx.sampleRate);
+    const d = buf.getChannelData(0);
+    for (let i = 0; i < d.length; i++) d[i] = (Math.random() * 2 - 1) * Math.pow(1 - i / d.length, 6) * 0.3;
+    const src = ctx.createBufferSource();
+    src.buffer = buf;
+    src.connect(ctx.destination);
+    src.start();
+}
+
+function playFakeFoundSound() {
+    const ctx = getAudioCtx();
+    if (!ctx) return;
+    const now = ctx.currentTime;
+    // Dramatic low brass stabs: "DUN... DUN... DUN!"
+    [[110, 0, 0.30], [110, 0.28, 0.56], [164.81, 0.58, 0.92]].forEach(([f, s, e]) =>
+        _osc(ctx, 'sawtooth', f, now + s, now + e, 0.40));
+    // Ascending victory fanfare
+    [[523.25, 0.95], [659.25, 1.08], [783.99, 1.21], [1046.5, 1.34]].forEach(([f, s]) =>
+        _osc(ctx, 'square', f, now + s, now + s + 0.48, 0.20));
+    // Final chord sting
+    [523.25, 659.25, 783.99, 1046.5].forEach(f =>
+        _osc(ctx, 'square', f, now + 1.55, now + 1.55 + 0.7, 0.12));
+}
+
+function playRealHeadlineSound() {
+    const ctx = getAudioCtx();
+    if (!ctx) return;
+    const now = ctx.currentTime;
+    // Quick typewriter-style double ding
+    [[1318.5, 0], [1760, 0.13]].forEach(([f, s]) =>
+        _osc(ctx, 'sine', f, now + s, now + s + 0.35, 0.18));
+}
+
+function playFinaleSound() {
+    const ctx = getAudioCtx();
+    if (!ctx) return;
+    const now = ctx.currentTime;
+    // Ascending scale run
+    [261.63, 329.63, 392, 523.25, 659.25, 783.99, 1046.5].forEach((f, i) =>
+        _osc(ctx, 'square', f, now + i * 0.13, now + i * 0.13 + 0.5, 0.18));
+    // Big victory chord blast
+    [261.63, 329.63, 392, 523.25, 659.25, 783.99, 1046.5].forEach(f =>
+        _osc(ctx, 'square', f, now + 1.1, now + 2.6, 0.10));
+    // Low bass punch
+    _osc(ctx, 'sawtooth', 65.41, now + 1.1, now + 1.9, 0.35);
+}
+
 async function init() {
     try {
         const resp = await fetch('data/rounds.json');
@@ -57,18 +134,21 @@ function renderRound(index) {
 
         const activate = () => {
             if (headline.real) {
+                playRealHeadlineSound();
                 window.open(headline.url, '_blank', 'noopener,noreferrer');
                 showToast('Real headline! 📰 Article opening in a new tab…');
             } else {
+                playFakeFoundSound();
                 const realHeadlines = shuffled.filter(h => h.real);
                 showFakeFound(headline.text, realHeadlines);
             }
         };
 
-        card.addEventListener('click', activate);
+        card.addEventListener('click', () => { playCardClick(); activate(); });
         card.addEventListener('keydown', (e) => {
             if (e.key === 'Enter' || e.key === ' ') {
                 e.preventDefault();
+                playCardClick();
                 activate();
             }
         });
@@ -162,6 +242,7 @@ function showToast(message) {
 }
 
 function showFinished() {
+    playFinaleSound();
     document.querySelector('main').innerHTML = `
     <div class="finished">
       <span class="big-egg">All Done</span>
